@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        .card-body {
+            background-color: bisque;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="m-5 text-center">
+        <h1 style="color: red;">Rayhan's Courtyard</h1>
+        <br>
+        <h2 style="color: orange;">Food Menu</h2>
+
+        <input type="text" name="" placeholder="Enter Food Name" id="food-name">
+        <button onclick="foods()" class="btn btn-danger">Search</button>
+    </header>
+    <main>
+        <div id="meal-id" class="row row-cols-1 row-cols-md-3 g-4 m-4">
+        </div>
+    </main>
+    <script src="js/meal.js"></script>
+</body>
+
+</html>
